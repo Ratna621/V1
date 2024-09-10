@@ -1,0 +1,194 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Inter", sans-serif;
+}
+input:focus,
+button:focus {
+  box-shadow: none;
+  outline: none;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb {
+  background: #dddcdc;
+  border-radius: 2px;
+}
+.my-100 {
+  margin: 100px 0;
+}
+.text-pink {
+  color: #d11efe;
+}
+.text-gray {
+  color: #ffffffab;
+}
+.button-pink {
+  background: rgb(224, 101, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(224, 101, 255, 1) 0%,
+    rgba(156, 0, 194, 1) 100%
+  );
+  border-radius: 30px;
+  padding: 8px 15px;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+  height: 60px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  transition: background 1s ease-out;
+  background-size: 1px 200px;
+}
+.button-pink:hover {
+  background-position: 100px;
+  box-shadow: -1px 5px 1.25rem 1px #0000008c;
+}
+.space-x-30 > * + * {
+  margin-left: 30px;
+}
+.flex-1 {
+  flex: 1 1 0%;
+}
+.formobile,
+.forsmmobile {
+  display: none;
+}
+
+.testimonialsslider .carousel .slide {
+  text-align: left;
+  margin-right: 15px;
+}
+.testimonialsslider .carousel .control-next.control-arrow {
+  left: inherit !important;
+  right: 50% !important;
+}
+.testimonialsslider .carousel .control-prev.control-arrow {
+  left: inherit !important;
+  right: 54% !important;
+}
+.testimonialsslider .carousel .slider-wrapper.axis-horizontal .slider {
+  float: left;
+  left: -380px;
+}
+.testimonialsslider .carousel .control-arrow {
+  background: #2c073d !important;
+  border-radius: 100%;
+  top: 50%;
+  margin-top: 0px !important;
+  position: absolute !important;
+  width: 60px;
+  height: 60px;
+  opacity: 1 !important;
+}
+
+.testimonialsslider .carousel.carousel-slider {
+  padding-top: 100px;
+}
+
+@media only screen and (min-width: 2000px) {
+  .container {
+    max-width: 1700px !important;
+  }
+  .button-pink {
+    border-radius: 40px;
+    font-size: 30px;
+    height: 70px;
+    min-width: 350px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .testimonialsslider .carousel .control-next.control-arrow {
+    left: inherit !important;
+    right: 55% !important;
+  }
+  .testimonialsslider .carousel .control-prev.control-arrow {
+    left: inherit !important;
+    right: 60% !important;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .testimonialsslider .carousel .control-next.control-arrow {
+    left: inherit !important;
+    right: 42% !important;
+  }
+  .testimonialsslider .carousel .control-prev.control-arrow {
+    left: inherit !important;
+    right: 46% !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .formobile {
+    display: block;
+  }
+  .forweb {
+    display: none;
+  }
+  .button-pink {
+    font-size: 16px;
+    font-weight: 500;
+    height: 40px;
+    min-width: auto;
+  }
+  .testimonialsslider .carousel .slider-wrapper.axis-horizontal .slider {
+    float: left;
+    left: -380px;
+  }
+  .testimonialsslider .carousel .control-arrow {
+    top: 87% !important;
+    width: 45px;
+    height: 45px;
+  }
+  .testimonialsslider .carousel .control-next.control-arrow {
+    left: 19% !important;
+  }
+  .testimonialsslider .carousel .control-prev.control-arrow {
+    left: 15% !important;
+  }
+  .testimonialsslider .carousel.carousel-slider .control-arrow {
+    font-size: 21px;
+  }
+  .testimonialsslider .carousel.carousel-slider {
+    padding-top: 25px;
+    padding-bottom: 75px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .testimonialsslider .carousel .control-prev.control-arrow {
+    left: 40px !important;
+  }
+  .testimonialsslider .carousel .control-next.control-arrow {
+    left: 110px !important;
+  }
+  .forsmmobile {
+    display: block;
+  }
+  .forsmweb {
+    display: none;
+  }
+}

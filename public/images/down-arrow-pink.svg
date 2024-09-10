@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 9" width="17" height="9">
+	<title>down-arrow-svg</title>
+	<defs>
+		<image  width="17" height="11" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAALCAMAAACu/pY1AAAAAXNSR0IB2cksfwAAAHJQTFRF0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+0R7+WB11sAAAACZ0Uk5TAMnGGhvIztH/4iMlE9LpLQ3E8jYLB7n2QQSt+kxSAZb+oIWEcf3rJy7eAAAAfUlEQVR4nF3OUQvBYBjF8f+JJiOTpU3iQr7/J+JGMmJqLibkfbxsWpx6Ls7v5jziP/J5NrXta8df+YWes5v6egQqKojs7gIx1DVU/obYym7rJBjrEmkPqRUDO+KFic6xtjOXjyzjI8x1SJWR2IZaYLGD6br6p95dylb8SJMXjCAjH41rwLQAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use  href="#img1" x="0" y="-1"/>
+</svg>
